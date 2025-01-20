@@ -1,3 +1,5 @@
+import os
+from datetime import datetime
 from analysis import SalesAnalyzer
 from classification import CustomerSegmentation
 from recommendation import RecommendationEngine
@@ -6,7 +8,9 @@ from utils import print_formatted_analysis_results, print_formatted_classificati
 FILE_PATH = 'test_data/purchase_data_50k.csv'
 CUSTOMER = 'C063'
 
-with open('report.txt', 'w') as file:
+os.makedirs('output', exist_ok=True)
+report_name = f"output/report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+with open(report_name, 'w') as file:
     analyzer = SalesAnalyzer(FILE_PATH)
     analysis_result = analyzer.get_full_analysis()
     print_formatted_analysis_results(analysis_result, 'full', file)

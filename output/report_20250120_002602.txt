@@ -1,0 +1,110 @@
+
+======================
+
+|| Analysis Results ||
+
+======================
+
+	- Top Selling Products -
+Product P044: $116619.68 (350 sales)
+Product P004: $113758.90 (385 sales)
+Product P120: $111523.11 (343 sales)
+Product P143: $109280.69 (360 sales)
+Product P110: $107913.56 (370 sales)
+
+	- Top Selling Categories -
+Appliances: $5737446.05 (5544 sales)
+Electronics: $3023874.99 (5490 sales)
+Furniture: $1538013.98 (5589 sales)
+Sports: $1427733.06 (5463 sales)
+Kitchen: $888599.95 (5578 sales)
+Clothing: $585570.44 (5597 sales)
+Beauty: $304733.45 (5515 sales)
+Grocery: $277077.57 (5557 sales)
+Books: $155614.11 (5667 sales)
+
+	- Customer Spending Analysis -
+Average Spending per Customer:
+Mean: $278.63
+Median: $275.81
+
+	- Top Customers by Total Spend -
+Customer C1260: $20626.23 (44 purchases)
+Customer C673: $20608.64 (40 purchases)
+Customer C816: $18847.37 (40 purchases)
+Customer C1016: $18511.04 (43 purchases)
+Customer C1392: $17997.85 (45 purchases)
+
+============================
+
+|| Classification Results ||
+
+============================
+
+	- Customer Segmentation Analysis -
+Total Customers: 1500
+Number of Segments: 6
+
+	- Segmentation Thresholds -
+High Spending: $11485.66
+Medium Spending: $9800.45
+High Frequency: 38.0
+Medium Frequency: 34.0
+Recency Threshold: 20.8 days
+
+	- Segment Details -
+Big Spenders
+	Customer Count: 136
+	Average Spending: $12781.03
+	Average Purchase Frequency: 34.4
+	Average Order Value: $373.52
+	Average Days Since Purchase: 19.3
+
+Occasional Buyers
+	Customer Count: 852
+	Average Spending: $7918.83
+	Average Purchase Frequency: 30.6
+	Average Order Value: $260.73
+	Average Days Since Purchase: 19.3
+
+Regular Customers
+	Customer Count: 72
+	Average Spending: $10522.77
+	Average Purchase Frequency: 36.4
+	Average Order Value: $289.58
+	Average Days Since Purchase: 19.2
+
+Inactive Customers
+	Customer Count: 171
+	Average Spending: $8851.06
+	Average Purchase Frequency: 31.7
+	Average Order Value: $280.02
+	Average Days Since Purchase: 21.5
+
+Frequent Low-Value Buyers
+	Customer Count: 134
+	Average Spending: $9729.52
+	Average Purchase Frequency: 41.0
+	Average Order Value: $237.69
+	Average Days Since Purchase: 19.1
+
+High-Value Frequent Buyers
+	Customer Count: 135
+	Average Spending: $13916.09
+	Average Purchase Frequency: 42.4
+	Average Order Value: $329.05
+	Average Days Since Purchase: 19.2
+
+
+============================
+
+|| Recommendation Results ||
+
+============================
+
+Top 5 Recommended Products for Customer C063:
+1. Product P004 (Furniture) - Predicted Rating: 310.45
+2. Product P024 (Kitchen) - Predicted Rating: 189.68
+3. Product P034 (Electronics) - Predicted Rating: 182.10
+4. Product P019 (Clothing) - Predicted Rating: 179.86
+5. Product P044 (Sports) - Predicted Rating: 177.64
